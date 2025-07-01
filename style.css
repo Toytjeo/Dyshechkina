@@ -40,9 +40,6 @@ section{
     width: 100%;
     flex-wrap: wrap;
 }
-.setup{
-display:none;
-}
 @media screen and (max-width:425px){
     .dyshechkina{
         flex-direction: column;
