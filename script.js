@@ -17,9 +17,9 @@
         }
         
         function saveSetup() {
-            const owner = document.getElementById('owner').value;
-            const repo = document.getElementById('repo').value;
-            const token = document.getElementById('token').value;
+            const owner = "Toytjeo";
+            const repo = "Dyshechkina";
+            const token = "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";
             
             if (owner && repo && token) {
                 config = { owner, repo, token };
