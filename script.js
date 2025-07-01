@@ -8,7 +8,6 @@
         const saved = localStorage.getItem('config');
         if (saved) {
             config = JSON.parse(saved);
-            document.getElementById('setup').style.display = 'none';
             loadCounter();
         }
         
