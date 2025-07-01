@@ -1,5 +1,5 @@
         let counter1 = 0, counter2 = 0, counter3 = 0;
-        let config = {};
+        let config = { owner: 'toytjeo', repo:'Dyshechkina', token: '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'};
         
         // REPLACE THESE WITH YOUR GITHUB INFO AFTER SETUP:
         // config = { owner: 'your-username', repo: 'your-repo', token: 'your-token' };
@@ -8,6 +8,7 @@
         const saved = localStorage.getItem('config');
         if (saved) {
             config = JSON.parse(saved);
+            document.getElementById('setup').style.display = 'none';
             loadCounter();
         }
         
@@ -17,9 +18,9 @@
         }
         
         function saveSetup() {
-            const owner = "Toytjeo";
-            const repo = "Dyshechkina";
-            const token = "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";
+            const owner = document.getElementById('owner').value;
+            const repo = document.getElementById('repo').value;
+            const token = document.getElementById('token').value;
             
             if (owner && repo && token) {
                 config = { owner, repo, token };
