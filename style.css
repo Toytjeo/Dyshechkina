@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.section__button{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background-color: red;
+}
+.roma{
+    background-image: url(https://w1.pngwing.com/pngs/335/700/png-transparent-emoji-like-pig-piglet-smiley-cartoon-facebook-pink-red.png);
+    background-size: contain;
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 45%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 200px;
+    text-align: center;
+    border: 2px solid black;
+    background-color: aliceblue ;
+}
+.dyshechkina{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-wrap: wrap;
+}
+@media screen and (max-width:425px){
+    .dyshechkina{
+        flex-direction: column;
+        width: 45%;
+        border: 2px solid black;
+    }
+    .dyshechkina>section{
+        width: 100%;
+        border: none;
+    }
+}

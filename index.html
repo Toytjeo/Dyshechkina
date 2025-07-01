@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <section class="section">
+            <h1 class="section__h1">Всего тупости</h1>
+            <p class="section__number" id="total" style="color: red;">0</p>
+            <p class="section__times">раз(а)</p>
+        </section>
+        <div class="dyshechkina">
+            <section class="section">
+                <h1 class="section__h1">Душечкина пошутила плохо</h1>
+                <p class="section__number" id="number1">0</p>
+                <p class="section__times">раз(а)</p>
+                <button class="section__button" id="button1" onclick="addOne(1)"></button>
+            </section>    
+            <section class="section">
+                <h1 class="section__h1">Душечкина кинула стрелку</h1>
+                <p class="section__number" id="number2">0</p>
+                <p class="section__times">раз(а)</p>
+                <button class="section__button" id="button2" onclick="addOne(2)"></button>
+            </section>
+            </div>
+        <section class="section">
+            <h1 class="section__h1">Клацалка для ромы турка</h1>
+            <p class="section__number" id="number3">0</p>
+            <p class="section__times">раз(а)</p>
+            <button class="section__button roma" id="button3" onclick="addOne(3)"></button>
+        </section>
+            <div class="setup" id="setup">
+                <p>GitHub Setup:</p>
+                <input type="text" id="owner" placeholder="GitHub username" />
+                <input type="text" id="repo" placeholder="Repository name" />
+                <input type="password" id="token" placeholder="GitHub token" />
+                <button onclick="saveSetup()">Save</button>
+            </div>
+        </section>
+    </div>
+        <script src="script.js"></script>
+</body>
+</html>
