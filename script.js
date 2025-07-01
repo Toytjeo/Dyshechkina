@@ -1,5 +1,5 @@
         let counter1 = 0, counter2 = 0, counter3 = 0;
-        let config = { owner: 'toytjeo', repo:'Dyshechkina', token: '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'};
+        let config = { owner: 'Toytjeo', repo:'Dyshechkina', token: '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'};
         
         // REPLACE THESE WITH YOUR GITHUB INFO AFTER SETUP:
         // config = { owner: 'your-username', repo: 'your-repo', token: 'your-token' };
